@@ -30,7 +30,20 @@ class CustomIcon extends StatelessWidget {
                 ),
                 borderRadius: BorderRadius.circular(7),
               ),
-          )
+          ),
+          Center(child:Container(
+            height:double.infinity,
+            width:38,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(7),
+            ),
+            child: const Icon(Icons.add, 
+            color: Colors.black,
+             size: 20,
+             ),
+             ),
+             ),
         ],
       ),
 

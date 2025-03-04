@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiktok/views/widgets/custom_icon.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,7 +19,7 @@ class HomeScreen extends StatelessWidget {
           label: 'Search'
           ),
         BottomNavigationBarItem(
-          icon: CustomerIcon(),
+          icon: CustomIcon(),
           label: ' ',
           ),
         BottomNavigationBarItem(
